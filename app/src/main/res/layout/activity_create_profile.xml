@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/addProfileImageId"
+                android:layout_width="172dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/loginlogo_foreground"
+                app:layout_constraintCircleRadius="50dp" />
+
+            <Button
+                android:id="@+id/pickImageCreateProfile"
+                android:layout_width="170dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="28dp"
+                android:text="Pick Image"
+                app:backgroundTint="#0886CA" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="323dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:text="Please provide your Name and Optional Profile Photo"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/nameCreateProfile"
+                android:layout_width="290dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/toCreateProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="28dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="224dp"
+                android:layout_gravity="center"
+                android:layout_height="63dp"
+                android:layout_marginTop="40dp"
+                android:text="Made with Love by pushpendrahpx" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

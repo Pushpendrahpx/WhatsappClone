@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980885790642",
+    "project_id": "whatsappminiproject",
+    "storage_bucket": "whatsappminiproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980885790642:android:d41f2a4eacfc1422758eab",
+        "android_client_info": {
+          "package_name": "com.shareable.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980885790642-mid334i0k8oi4i78qv6r133jf7h944i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOYR3wAJw6BKgnuWSXm49FmV4BLj6oHzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980885790642-mid334i0k8oi4i78qv6r133jf7h944i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
